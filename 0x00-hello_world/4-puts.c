@@ -1,11 +1,11 @@
-#stdio.h
+#include <stdio.h>
 
 int main(void)
 {
-char progi[] = "Programming is like building multilingual puzzle";
+	char progi[] = "Programming is like building multilingual puzzle";
 
-puts(progi);
+        puts(progi);
 
-return 0;
+        return 0;
 }
 
