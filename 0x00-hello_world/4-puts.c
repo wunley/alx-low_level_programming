@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * main - Entry point
+ * Return - Always0 (Success)
+ */
 
 int main(void)
 {
@@ -6,6 +10,6 @@ int main(void)
 
         puts(progi);
 
-        return 0;
+        return (0);
 }
 
