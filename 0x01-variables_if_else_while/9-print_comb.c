@@ -7,10 +7,10 @@ int main(void)
 {
 	int basey;
 
-	for (basey = '0'; basey <= '9' basey++)
+	for (basey = '0'; basey <= '9'; basey++)
 	{
 		putchar(basey);
-	if (n != 9)
+	if (basey != 9)
 	{
 		putchar(',');
 		putchar(' ');
