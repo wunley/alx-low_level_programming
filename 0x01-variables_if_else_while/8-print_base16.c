@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int hexi = 0;
+	char hexi = 0;
 
 	while (hexi < 16)
 	{
