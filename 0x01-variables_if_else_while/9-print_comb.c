@@ -7,11 +7,11 @@ int main(void)
 {
 	int basey;
 
-	for (basey = 0; basey < 10; basey++)
+	for (basey = '0'; basey < '10'; basey++)
 	{
 		putchar(basey);
-		putchar(",");
-		putchar(" ");
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
