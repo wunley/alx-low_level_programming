@@ -6,17 +6,17 @@
  */
 int main(void)
 {
-	char hexi = 0;
+	int num;
+	char hexi;
 
-	while (hexi < 16)
+	for (num = 0; num < 10; num++)
 	{
-		if (hexi >= '0' || hexi <= '10')
-			putchar(hexi);
-		else
-		{
-			putchar(hexi + 32);
-		}
-		putchar('\n');
-		return (0);
+		putchar(48 + num);
 	}
+	for (hexi = 'a'; hexi <= 'f'; hexi++)
+	{
+		putchar(hexi);
+	}
+	putchar('\n');
+	return (0);
 }
