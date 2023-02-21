@@ -34,7 +34,7 @@ int main(void)
 			}
 			y++;
 		}
-		z++
+		z++;
 	}
 	putchar('\n');
 	return (0);
