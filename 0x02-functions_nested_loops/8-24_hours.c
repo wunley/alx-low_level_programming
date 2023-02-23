@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 #include <stdlib.h>
 /**
  * jack_bauer - print 24 hour in minutes
