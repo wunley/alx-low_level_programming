@@ -5,7 +5,7 @@
  *
  * @r: number to be checked
  *
- * Return; Always 0
+ * Return: Always 0
  */
 int _abs(int r)
 {
@@ -15,7 +15,7 @@ int _abs(int r)
 	}
 	else if (r < 0)
 	{
-		return (r* -1);
+		return (r * -1);
 	}
 	else
 	{
