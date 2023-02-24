@@ -3,7 +3,7 @@
 /**
  * print_to_98 - Print natural numbers to 98
  *
- * @n: number to start from 
+ * @n: number to start from
  *
  * Return: Always 0
  */
@@ -20,7 +20,7 @@ void print_to_98(void)
 			}
 			else
 			{
-				printf("%d", n);
+				printf("%d, ", n);
 			}
 		}
 	}
