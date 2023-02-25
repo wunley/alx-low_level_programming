@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+#include <math.h>
 /**
  * main - Prints the largest prime fafctor of the number 612852475143
  * Return: Always 0
