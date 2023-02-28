@@ -7,10 +7,8 @@
  *
  * Return: Always 0
  */
-void print_to_98(void)
+void print_to_98(int n)
 {
-	int n;
-	
 	n = 0;
 
 	if (n <= 98)
