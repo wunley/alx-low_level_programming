@@ -3,7 +3,7 @@
  * _strncpy - function that copies a string
  * @dest: the buffer storing the string copy
  * @src: the source string
- * @: the maximum number of bytes to be copied from src
+ * @n: the maximum number of bytes to be copied from src
  * Return: a pointer to the resulting string dest
  */
 char *_strncpy(char *dest, char *src, int n)
