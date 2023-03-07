@@ -10,7 +10,7 @@ char *_strchr(char *s, char c)
 	char *find;
 	int j = 0;
 
-	for (; c != '\0'; j++)
+	for (; s[j] != '\0'; j++)
 	{
 		if (s[j] == c)
 		{
@@ -18,7 +18,7 @@ char *_strchr(char *s, char c)
 		}
 		else
 		{
-			_putchar('\0');
+			_putchar('0');
 		}
 	}
 	return (find);
