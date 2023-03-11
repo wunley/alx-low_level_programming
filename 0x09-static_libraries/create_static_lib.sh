@@ -1,3 +1,4 @@
 #!/bin/bash
-gcc -c *.c
-gcc *.o -L. -lall
+gcc -Wall -pedantic -Werror -Wextra -c *.c
+ar -rc liball.c *.c
+ranlib liball.c
